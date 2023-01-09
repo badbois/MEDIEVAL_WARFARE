@@ -9,16 +9,22 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/main_menu.unity
+    path: Assets/Scenes/Core.unity
+    guid: f808360a0bedfa741a80076eddc2dec5
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 3391a338f49429a478fbe1d5d59d6151
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
     guid: 28c67a99caa42384da82a1b6a798892a
   - enabled: 1
-    path: Assets/Scenes/level 1.unity
+    path: Assets/Scenes/Level 1.unity
     guid: d2b350bdff9f2ab41a700af6a473e8a2
-  - enabled: 1
-    path: Assets/Scenes/level 2.unity
-    guid: 4a9774b593f29ac47bf22e55b3ce28c8
-  - enabled: 1
-    path: Assets/Scenes/level 3.unity
-    guid: 451f7a861d6b574468a36d64c1edb10e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 0732f080adbf82c44b8564efb91e230b, type: 2}

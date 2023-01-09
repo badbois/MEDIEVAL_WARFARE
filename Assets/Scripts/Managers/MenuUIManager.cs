@@ -84,7 +84,8 @@ public class MenuUIManager : Singleton<MenuUIManager>
     private void handle_start_game()
     {
         string menu_selected = level_selector.options[level_selector.value].text;
-        SceneManager.LoadSceneAsync(menu_selected);
+        SceneManager.UnloadSceneAsync("main_menu");
+        SceneManager.LoadSceneAsync(menu_selected, LoadSceneMode.Additive);
         set_state(MenuState.MAIN);
     }
 
